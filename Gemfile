@@ -8,9 +8,9 @@ end
 ruby '~> 2.4.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.4'
+gem 'rails', '~> 5.2.6', '>= 5.2.6.2'
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.3', '>= 4.3.11'
 # gzip
 gem 'degzipper'
 #
