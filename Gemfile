@@ -8,9 +8,9 @@ end
 ruby '~> 2.4.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.4'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.3', '>= 4.3.12'
 # gzip
 gem 'degzipper'
 #
@@ -39,7 +39,7 @@ end
 group :development do
   # Use sqlite3 as the database for Active Record
   gem 'pg'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem "binding_of_caller"
 end
 
